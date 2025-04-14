@@ -1,0 +1,38 @@
+.nifty-container {
+    padding: 2rem;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .theme-toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .date-picker-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .slider-box {
+    margin: 2rem 0;
+  }
+  
+  .daily-info {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #555;
+  }
+  
+  .plot-wrapper {
+    margin-top: 2rem;
+  }
+  

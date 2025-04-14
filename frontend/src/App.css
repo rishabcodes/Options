@@ -1,0 +1,49 @@
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nifty-container {
+  max-width: 950px;
+  width: 100%;
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: 12px;
+  background-color: var(--bg-color);
+}
+
+.nifty-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.theme-toggle {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+
+.date-picker-row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  justify-content: space-between;
+}
+
+.slider-box {
+  margin: 1.5rem 0;
+}
+
+.plot-wrapper {
+  margin-top: 2rem;
+}
+
+.daily-info {
+  font-weight: 500;
+  margin: 1rem 0;
+  text-align: center;
+}
